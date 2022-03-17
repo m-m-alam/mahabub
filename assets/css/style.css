@@ -42,3 +42,7 @@ li{
 .social-icon a:hover{
     color: green;
 }
+
+.wrapper #home{
+    margin-left: 280px;
+}
