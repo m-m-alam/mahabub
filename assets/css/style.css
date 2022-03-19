@@ -52,7 +52,7 @@ main{
     width: 100px;
 }
 #home{
-    background-image: url("../assets/image/mahabub.jpg");
+    background-image: url("../../assets/image/mahabub.jpg");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
