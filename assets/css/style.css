@@ -1,5 +1,8 @@
-a{
+a {
     text-decoration: none;
+}
+a:hover{
+    color: #fff;
 }
 ul{
     margin: 0;
@@ -37,6 +40,9 @@ li{
     color: #fff;
     font-size: 18px;
 }
+.nav-link a:hover{
+    color: #FF4500;
+}
 .social-icon a{
     padding-right: 10px;
     font-size: 30px;
@@ -57,20 +63,55 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    opacity: .5;
+    opacity: .95;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #fff;
     position: relative;
+    text-align: center;
 }
 .hero-bg {
     background-color: black;
-    opacity: 0.7;
+    opacity: 0.85;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -9999;
+    z-index: -999999;
 }
+.home-btn{
+    border: 2px solid #FF4500;
+    
+    color: #fff;
+    padding: 12px 30px;
+    margin-top: 20px;
+    border-radius: 30px;
+    display: inline-block;
+}
+.home-btn:hover{
+    color: #fff;
+    background: #20c997 ;
+}
+
+@media (max-width: 767.98px) { 
+    .wrapper{
+        flex-direction: column;
+    }
+    #header{
+        background-color: #111418 ;
+        width: 100%;    
+        position: relative;
+    }
+    .sidebar{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;    
+    }
+    main{
+        margin: 0;
+    }
+ }
