@@ -8,13 +8,16 @@ ul{
 li{
     list-style: none;
 }
-.sidebar-area{
+.wrapper{
+    display: flex;
+}
+#header{
     background-color: #111418 ;
     width: 280px;    
     padding: 30px 0;
-    
+    position: fixed;
 }
-.sidemenu{
+.sidebar{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,7 +45,32 @@ li{
 .social-icon a:hover{
     color: green;
 }
-
-.wrapper #home{
+main{
     margin-left: 280px;
+}
+.wid10{
+    width: 100px;
+}
+#home{
+    background-image: url("/assets/image/mahabub.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    opacity: .5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    position: relative;
+}
+.hero-bg {
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -9999;
 }
